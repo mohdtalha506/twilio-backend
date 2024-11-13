@@ -1,0 +1,30 @@
+{
+  "name": "twilio-conversations-backend",
+  "version": "1.0.0",
+  "description": "Backend server for Twilio Conversations",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "twilio": "^4.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohdtalha506/twilio-backend.git"
+  },
+  "author": "Mohammad Talha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohdtalha506/twilio-backend/issues"
+  },
+  "homepage": "https://github.com/mohdtalha506/twilio-backend#readme",
+  "keywords": []
+}
